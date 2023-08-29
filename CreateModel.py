@@ -1,22 +1,15 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
-from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import LabelEncoder
-import joblib
-from sklearn.linear_model import LogisticRegression
 from sklearn import metrics
 import matplotlib.pyplot as plt
-import datetime
+
 # To work with text data 
 import re
 import string
 from sklearn.preprocessing import MinMaxScaler
-import pickle
-from sklearn import linear_model
-from sklearn.metrics import accuracy_score
-
 from sklearn.ensemble import RandomForestClassifier
 
 scaler = MinMaxScaler()
